@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/Machi_Koro.dir/home/nicholas/dev/Machi-Koro/src/game_core.c.o CMakeFiles/Machi_Koro.dir/home/nicholas/dev/Machi-Koro/src/main.c.o CMakeFiles/Machi_Koro.dir/home/nicholas/dev/Machi-Koro/src/string_functions.c.o  -o ../bin/Machi_Koro 

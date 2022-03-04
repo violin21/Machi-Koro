@@ -1,5 +1,8 @@
 # template from github.com/github/gitignore
 
+build/
+debug/build
+debug/bin
 
 
 # Prerequisites
