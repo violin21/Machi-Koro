@@ -20,9 +20,12 @@ To create and enter the build directory. Once you're there, run
 ```
 cmake .. && make
 ```
-To compile the source code into a new directory called bin in that build directory.
+To compile the source code into a new directory called bin in that build directory. Note: the make command works for UNIX operating systems (including Linux). For Windows, use
+```
+cmake .. && mingw32-make
+```
 
-Make sure you have gcc and g++ installed when you do this.
+Make sure you have a C compiler installed. If you're on Windows, make sure you have MinGW installed.
 
 ## Development
 
