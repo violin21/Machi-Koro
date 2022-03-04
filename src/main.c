@@ -76,11 +76,11 @@ int main()
     player3.farmersMarkets = 0;
 
     printf("What is the first player's name?\n");
-    scanf(" %s", player1.name);
+    scanf(" %s", &player1.name);
     printf("What is the second player's name?\n");
-    scanf(" %s", player2.name);
+    scanf(" %s", &player2.name);
     printf("What is the third player's name?\n");
-    scanf(" %s", player3.name);
+    scanf(" %s", &player3.name);
 
     /* Deciding which player goes first */
     int first = rand() % 3 + 1;
