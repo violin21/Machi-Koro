@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(Machi_Koro VERSION 0.1)
-enable_language(C)
+project(Machi_Koro C VERSION 0.1)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
