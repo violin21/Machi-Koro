@@ -40,6 +40,10 @@ int main()
     player1.familyRestaurants = 0;
     player1.appleOrchards = 0;
     player1.farmersMarkets = 0;
+    player1.trainStation = false;
+    player1.shoppingMall = false;
+    player1.amusementPark = false;
+    player1.radioTower = false;
 
     player2.wheatFields = 1;
     player2.bakeries = 1;
@@ -57,6 +61,10 @@ int main()
     player2.familyRestaurants = 0;
     player2.appleOrchards = 0;
     player2.farmersMarkets = 0;
+    player2.trainStation = false;
+    player2.shoppingMall = false;
+    player2.amusementPark = false;
+    player2.radioTower = false;
 
     player3.wheatFields = 1;
     player3.bakeries = 1;
@@ -74,6 +82,10 @@ int main()
     player3.familyRestaurants = 0;
     player3.appleOrchards = 0;
     player3.farmersMarkets = 0;
+    player3.trainStation = false;
+    player3.shoppingMall = false;
+    player3.amusementPark = false;
+    player3.radioTower = false;
 
     printf("What is the first player's name?\n");
     scanf(" %s", &player1.name);
@@ -172,7 +184,7 @@ int main()
                     if(player1.radioTower)
                     {
                         char in;
-                        printf("Since you have a radio tower, would you like to re roll? y for yes.\n");
+                        printf("Since you have a radio tower, would you like to re roll? y for yes, any other key for no.\n");
                         scanf(" %c", &in);
                         if((in == 'y') || (in == 'Y'))
                         {
