@@ -1,6 +1,9 @@
 /* Machi Koro Game by Pandasaurus ported to C. All rights
 go to their respective owners */
 
+/* TODO (version 0.2): make it so you can choose how many players are playing, make it so you can
+have second and third places after the first person wins */
+
 /* Version 0.1 */
 
 #include <stdio.h>
@@ -16,7 +19,7 @@ int main()
 
     srand(time(0));
 
-    printf("Hello and welcome to Machi Koro by Pandasaurus \nported to C by Nicholas Cuc. All rights to their \nrespective owners.\n");
+    printf("Hello and welcome to Machi Koro by Pandasaurus \nported to C. All rights to their \nrespective owners.\n");
 
     /* making players */
     struct player player1;
@@ -181,12 +184,12 @@ int main()
 
                     printf("You rolled %d\n\n", numRolled);
 
-                    if(player1.radioTower)
+                    if (player1.radioTower)
                     {
                         char in;
                         printf("Since you have a radio tower, would you like to re roll? y for yes, any other key for no.\n");
                         scanf(" %c", &in);
-                        if((in == 'y') || (in == 'Y'))
+                        if ((in == 'y') || (in == 'Y'))
                         {
                             roll(player1, &numRolled, &doub);
 
@@ -486,7 +489,16 @@ int main()
 
             break;
         }
+
+        if ((player1.trainStation || player2.trainStation || player3.trainStation) && (player1.shoppingMall || player2.shoppingMall || player3.shoppingMall) && (player1.amusementPark || player2.amusementPark || player2.amusementPark) && (player1.radioTower || player2.radioTower || player3.radioTower))
+            break;
     }
 
+    if (player1.trainStation && player1.shoppingMall && player1.amusementPark && player1.radioTower)
+        printf("%s has won! Congratulations!\n", player1.name);
+    else if (player2.trainStation && player2.shoppingMall && player2.amusementPark && player2.radioTower)
+        printf("%s has won! Congratulations!\n", player2.name);
+    else
+        printf("%s has won! Congratulations!\n", player3.name);
     return 0;
 }
