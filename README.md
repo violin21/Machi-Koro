@@ -6,6 +6,22 @@
 
 Find instructions [here](https://www.dropbox.com/s/ehpxe4aa6n0ee98/P_MK_Rulebook_7418%20%281%29.pdf?dl=0)
 
+## Installation
+
+You will find releases for Ubuntu and Windows on the GitHub page. If your operating system is not included, you can build using CMake.
+
+### CMake installation
+
+Install the source code Zip file from the release of your choice (it doesn't matter whether it is for Ubuntu or Windows) then extract it into a directory. Open a terminal in that directory and run
+```
+mkdir build && cd build
+```
+To create and enter the build directory. Once you're there, run
+```
+cmake .. && make
+```
+To compile the source code into a new directory called bin in that build directory.
+
 ## Development
 
 This game is not yet completed and still in version 0.1. It is not yet intended to be played.
