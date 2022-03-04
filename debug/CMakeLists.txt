@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 project(Machi_Koro LANGUAGES C VERSION 0.1)
 
 if (WIN32)
-    set(CMAKE_GENERATOR MSYS)
+    set(CMAKE_GENERATOR MinGW Makefiles)
 endif()
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
