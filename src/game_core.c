@@ -100,7 +100,7 @@ void earn(struct player *player, struct player *opp1, struct player *opp2, int r
         opp2->coins -= player->stadiums * 2;
 
         player->coins += player->tvStations * 5;
-        char *playerToLose;
+        char playerToLose[32];
         if (player->tvStations > 0)
         {
             for (int i = 0; i < player->tvStations; i++)

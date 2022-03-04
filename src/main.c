@@ -95,9 +95,9 @@ int main()
         third = rand() % 3 + 1;
     }
 
-    char *firstPlayer;
-    char *secondPlayer;
-    char *thirdPlayer;
+    char firstPlayer[32];
+    char secondPlayer[32];
+    char thirdPlayer[32];
 
     /* giving the first, second, third players names as strings so we can call
     them by their names later */

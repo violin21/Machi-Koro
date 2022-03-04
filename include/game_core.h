@@ -6,7 +6,7 @@
 /* contains everything the player can have */
 struct player
 {
-    char *name;
+    char name[32];
     int coins;
 
     bool amusementPark;

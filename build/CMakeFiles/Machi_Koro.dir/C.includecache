@@ -44,11 +44,3 @@ game_core.h
 string_functions.h
 /home/nicholas/dev/Machi-Koro/src/string_functions.h
 
-/home/nicholas/dev/Machi-Koro/src/string_functions.c
-string.h
--
-stdbool.h
--
-string_functions.h
-/home/nicholas/dev/Machi-Koro/src/string_functions.h
-

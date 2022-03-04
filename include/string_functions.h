@@ -3,6 +3,6 @@
 
 #include <stdbool.h>
 
-bool streq(char *str1, char *str2);
+bool streq(char str1[32], char str2[32]);
 
 #endif
