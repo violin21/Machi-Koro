@@ -1,0 +1,3 @@
+/home/nicholas/dev/Machi-Koro/debug/build/CMakeFiles/rebuild_cache.dir
+/home/nicholas/dev/Machi-Koro/debug/build/CMakeFiles/edit_cache.dir
+/home/nicholas/dev/Machi-Koro/debug/build/CMakeFiles/Machi_Koro.dir
