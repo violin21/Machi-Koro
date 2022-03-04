@@ -9,7 +9,7 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/../bin/${fileBasenameNoExtension}"
+        "${fileDirname}/../bin/${fileBasenameNoExtension}.exe"
       ],
       "options": {
         "cwd": "${fileDirname}"
@@ -26,9 +26,9 @@
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/../bin/${fileBasenameNoExtension}",
+        "${fileDirname}/../bin/${fileBasenameNoExtension}.exe",
         "&&",
-        "${fileDirname}/../bin/${fileBasenameNoExtension}"
+        "${fileDirname}/../bin/${fileBasenameNoExtension}.exe"
       ],
       "options": {
         "cwd": "${fileDirname}"
@@ -53,7 +53,7 @@
     {
       "type": "shell",
       "label": "C/C++: CMake build and run",
-      "command": "cmake .. && make && cd bin && ./Machi_Koro",
+      "command": "cmake .. && make && cd bin && ./Machi_Koro.exe",
       "options": {
         "cwd": "${workspaceFolder}/build"
       },
