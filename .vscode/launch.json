@@ -34,7 +34,7 @@
             "name": "CMake - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/debug/bin/Machi_Koro",
+            "program": "${workspaceFolder}/debug/bin/Machi_Koro.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
