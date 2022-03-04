@@ -22,6 +22,8 @@ cmake .. && make
 ```
 To compile the source code into a new directory called bin in that build directory.
 
+Make sure you have gcc and g++ installed when you do this.
+
 ## Development
 
 This game is not yet completed and still in version 0.1. It is not yet intended to be played.
