@@ -12,7 +12,7 @@ You will find releases for Ubuntu and Windows on the GitHub page. If your operat
 
 ### CMake installation
 
-Clone this repository into your computer, then open a terminal in that directory and run
+Install the source code Zip file from the release of your choice (it doesn't matter whether it is for Ubuntu or Windows) then extract it into a directory. Open a terminal in that directory and run
 ```
 mkdir build && cd build
 ```
